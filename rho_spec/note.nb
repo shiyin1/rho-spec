@@ -1,0 +1,158 @@
+(* Content-type: application/vnd.wolfram.cdf.text *)
+
+(*** Wolfram CDF File ***)
+(* http://www.wolfram.com/cdf *)
+
+(* CreatedBy='Wolfram 14.2' *)
+
+(*************************************************************************)
+(*                                                                       *)
+(*                                                                       *)
+(*  This file was created under the Wolfram Enterprise licensing terms.  *)
+(*                                                                       *)
+(*       For additional information concerning CDF licensing see:        *)
+(*                                                                       *)
+(*        www.wolfram.com/cdf/adopting-cdf/licensing-options.html        *)
+(*                                                                       *)
+(*                                                                       *)
+(*                                                                       *)
+(*************************************************************************)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[      1060,         20]
+NotebookDataLength[      4128,        137]
+NotebookOptionsPosition[      4403,        129]
+NotebookOutlinePosition[      4825,        146]
+CellTagsIndexPosition[      4782,        143]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Note of \[Rho] meson spectral function", "Title",
+ CellChangeTimes->{{3.950599268338274*^9, 
+  3.9505992807346916`*^9}},ExpressionUUID->"b6293693-2efe-f544-9b47-\
+f6612b0e5e40"],
+
+Cell[CellGroupData[{
+
+Cell["Quark-loop", "Section",
+ CellChangeTimes->{{3.950599582919424*^9, 
+  3.950599592974945*^9}},ExpressionUUID->"b51210aa-cd38-a347-8e1a-\
+db7f1882ad09"],
+
+Cell[TextData[{
+ "quark loop function of \[Rho] two-point function\n",
+ Cell[BoxData[{
+  FormBox[
+   RowBox[{
+    SubscriptBox["\[CapitalSigma]", "q"], "=", 
+    RowBox[{"Tr", 
+     RowBox[{"{", 
+      RowBox[{
+       SubscriptBox["ih", "k"], 
+       SubscriptBox["\[Gamma]", "\[Mu]"], 
+       SuperscriptBox["T", "i"], 
+       RowBox[{
+        SuperscriptBox[
+         SubscriptBox["G", "k"], "q"], "(", "q", ")"}], 
+       SubscriptBox["ih", "k"], 
+       SubscriptBox["\[Gamma]", "\[Nu]"], 
+       SuperscriptBox["T", "l"], 
+       RowBox[{
+        SuperscriptBox[
+         SubscriptBox["G", "k"], "q"], "(", 
+        RowBox[{"q", "-", "p"}], ")"}]}], "}"}]}]}], TraditionalForm], "\[IndentingNewLine]", 
+  FormBox[
+   RowBox[{"      ", 
+    RowBox[{"=", 
+     RowBox[{
+      RowBox[{"-", 
+       FractionBox[
+        SuperscriptBox[
+         SubscriptBox["h", "k"], "2"], 
+        SuperscriptBox[
+         SubscriptBox["Z", "q"], "2"]]}], 
+      RowBox[{"tr", "(", 
+       RowBox[{
+        SuperscriptBox["T", "i"], 
+        SuperscriptBox["T", "l"]}], ")"}], 
+      RowBox[{
+       SuperscriptBox[
+        SubscriptBox[
+         OverscriptBox["G", "_"], "k"], "q"], "(", "q", ")"}], 
+      RowBox[{
+       SuperscriptBox[
+        SubscriptBox[
+         OverscriptBox["G", "_"], "k"], "q"], "(", 
+       RowBox[{"q", "-", "p"}], ")"}], "tr", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{
+         SubscriptBox["\[Gamma]", "\[Mu]"], "(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            SuperscriptBox[
+             SubscriptBox["iq", "F"], "\[Sigma]"]}], 
+           SubscriptBox["\[Gamma]", "\[Sigma]"]}], "+", 
+          SubscriptBox[
+           OverscriptBox["m", "_"], "q"]}], ")"}], 
+        RowBox[{
+         SubscriptBox["\[Gamma]", "\[Nu]"], "(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            SuperscriptBox[
+             SubscriptBox[
+              RowBox[{"i", "(", 
+               RowBox[{"q", "-", "p"}], ")"}], "F"], "\[Rho]"]}], 
+           SubscriptBox["\[Gamma]", "\[Rho]"]}], "+", 
+          SubscriptBox[
+           OverscriptBox["m", "_"], "q"]}], ")"}]}], "}"}]}]}]}], 
+   TraditionalForm]}],
+  InitializationCell->True,
+  FormatType->TraditionalForm,ExpressionUUID->
+  "dc7b839d-8d58-ec4e-ae75-432293766c42"],
+ "\nHere we first compute the trace\n"
+}], "Text",
+ CellChangeTimes->{{3.9505999918732777`*^9, 3.950600230198986*^9}, {
+  3.9506005837530727`*^9, 
+  3.950600837022892*^9}},ExpressionUUID->"a76bb8a0-c251-c24b-9e62-\
+d2c5d5a6f8fb"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{718.5, 826.875},
+WindowMargins->{{Automatic, -4.125}, {Automatic, 0}},
+FrontEndVersion->"14.2 for Microsoft Windows (64-bit) (2024\:5e7412\:670826\
+\:65e5)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"fea936b9-f3b9-1d45-809b-b0b2df850a4f"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[1482, 35, 183, 3, 96, "Title",ExpressionUUID->"b6293693-2efe-f544-9b47-f6612b0e5e40"],
+Cell[CellGroupData[{
+Cell[1690, 42, 155, 3, 66, "Section",ExpressionUUID->"b51210aa-cd38-a347-8e1a-db7f1882ad09"],
+Cell[1848, 47, 2527, 78, 155, "Text",ExpressionUUID->"a76bb8a0-c251-c24b-9e62-d2c5d5a6f8fb"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
